@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="c_base_render_device.h" />
+    <ClInclude Include="directx9.h" />
+    <ClInclude Include="game_behavior.h" />
+    <ClInclude Include="game_render.h" />
+    <ClInclude Include="include.h" />
+    <ClInclude Include="math.h" />
+    <ClInclude Include="render_pipeline.h" />
+    <ClInclude Include="ui.h" />
+    <ClInclude Include="window_def.h" />
+    <ClInclude Include="window_manager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="directx9.cpp" />
+    <ClCompile Include="game_behavior.cpp" />
+    <ClCompile Include="game_render.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="render_pipeline.cpp" />
+    <ClCompile Include="ui.cpp" />
+    <ClCompile Include="window_manager.cpp" />
+  </ItemGroup>
+</Project>
